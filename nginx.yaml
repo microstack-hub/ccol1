@@ -19,8 +19,6 @@ spec:
       - name: nginx
         image: nginx
         imagePullPolicy: IfNotPresent
-      nodeSelector:
-        kubernetes.io/hostname: node1
 
 ---
 kind: NetworkPolicy
